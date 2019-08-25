@@ -12,7 +12,7 @@ class Ui_MainWindow(object):
         
     
     def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
+        MainWindow.setObjectName("ModelCreator")
         MainWindow.resize(219, 464)
         MainWindow.setStyleSheet("QWidget#centralwidget{ background-color: qlineargradient(spread:pad, x1:0.776577, y1:0.057, x2:1, y2:0.756, stop:0 rgba(34, 49, 63, 255), stop:1 rgba(64, 94, 120, 255));\n"
 "}\n"
@@ -230,7 +230,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self):#, MainWindow):
         #_translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle("MainWindow")
+        MainWindow.setWindowTitle("ModelCreator")
         self.modelName_label.setText("Model\'s Name")
         self.modelName_lineEdit.setText("Model")
         self.cnn_label.setText("CNN layers")
